@@ -392,3 +392,104 @@ form button:hover {
 .social-media li:hover {
   opacity: .8;
 }
+
+/* mobile styles */
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-container {
+    padding: 15px 10px;
+    /* border: 2px solid purple; */
+  }
+
+  .splash-container {
+    /* flex-direction: column; */
+    padding: 30px 5px;
+    /* border: 2px solid orange; */
+  }
+
+  .splash-logo {
+    margin: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 5px;
+    /* border: 2px solid orange; */
+  }
+
+  .main-logo {
+    width: 110px;
+    padding: 0px;
+    margin: 0px;
+    /* border: 2px solid blue; */
+  }
+
+  .splash-content {
+    font-size: .60em;
+    width: 100%;
+    margin: 0px 5px;
+    padding: 0px 5px;
+    /* border: 2px solid red; */
+  }
+
+  .button {
+    margin-top: 15px;
+    /* border: 2px solid blue; */
+  }
+
+  .button-wrapper {
+    /* transform: scale(.75); */
+    /* margin: 0px 0px 0px 0px; */
+    margin-left: 0px;
+    /* border: 2px solid orange; */
+  }
+
+  .episodes-container {
+    /* border: 2px solid orange; */
+  }
+
+  .episodes-content {
+    width: 100%;
+    /* border: 2px solid blue; */
+  }
+
+  .episodes-title {
+    /* width: 100%; */
+    /* border: 2px solid red; */
+  }
+
+  .footer-title {
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+
+  .newsletter-field-container {
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form label {
+    margin: 2px 0px;
+  }
+
+  form button {
+    margin: 2px 0px;
+  }
+
+  .footer-container h3 {
+    font-size: .70em;
+  }
+
+}
+
+/* tablet styles */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .main-logo {
+    width: 200%;
+  }
+
+  .email-us {
+    width: 70%;
+    /* border: 2px solid red; */
+  }
+}
