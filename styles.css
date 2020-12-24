@@ -453,6 +453,16 @@ form button:hover {
     /* border: 2px solid red; */
   }
 
+  .about-container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .about-content {
+    width: 100%;
+    /* border: 2px solid blue; */
+  }
+
   .footer-title {
     text-align: center;
     /* border: 2px solid red; */
@@ -486,6 +496,16 @@ form button:hover {
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
   .main-logo {
     width: 200%;
+  }
+
+  .about-container{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .about-content {
+    width: 100%;
+    /* border: 2px solid blue; */
   }
 
   .email-us {
