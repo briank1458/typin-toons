@@ -216,10 +216,19 @@ li {
 }
 
 .card-image {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
+  margin: 0px 15px;
   position: relative;
   border-radius: 10px;
+  max-width: 7%;
   /* border: 2px solid yellow; */
+}
+
+.card-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  /* border: 2px solid blue; */
 }
 
 .card-text-contents{
@@ -262,9 +271,17 @@ li {
   text-decoration: none;
 }
 
-.episodes-container a:hover{
+.episodes-content > a:hover {
+  filter: brightness(120%);
+}
+
+.view-all-wrapper a:hover{
   opacity: .8;
 }
+
+/* .episodes-container a:hover{
+  opacity: .8;
+} */
 
 .about-container {
   background-color: #353535;
@@ -439,9 +456,9 @@ form button:hover {
     /* border: 2px solid orange; */
   }
 
-  .episodes-container {
-    /* border: 2px solid orange; */
-  }
+  /* .episodes-container {
+    border: 2px solid orange;
+  } */
 
   .episodes-content {
     width: 100%;
@@ -451,6 +468,10 @@ form button:hover {
   .episodes-title {
     /* width: 100%; */
     /* border: 2px solid red; */
+  }
+
+  .card-contents {
+    /* border: 2px solid purple; */
   }
 
   .about-container{
