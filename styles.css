@@ -389,7 +389,7 @@ form button:hover {
   padding: 20px 15px;
 }
 
-.social-media li:hover {
+.social-media a:hover {
   opacity: .8;
 }
 
